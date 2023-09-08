@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TailWaggingBreedsGuide" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+<!--    <style name="HideStatusBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+        <!-- hides status bar-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
