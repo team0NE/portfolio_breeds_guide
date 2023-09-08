@@ -186,6 +186,7 @@ fun TopBreedsScreen(navigation: NavController, vm: BreedVM) {
                         .requiredWidth(48.dp)
                         .padding(end = 16.dp, bottom = 16.dp).clickable(true, onClick = {
                             vm.index.intValue = 0
+                            vm.refreshBreed()
                             navigation.navigate("BreedDescriptionScreen")
                         })
                         .constrainAs(bottomFwdArrow) {

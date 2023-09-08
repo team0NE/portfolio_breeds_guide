@@ -231,7 +231,6 @@ fun BreedDescriptionScreen(navigation: NavController, vm: BreedVM) {
                         .requiredHeight(52.dp)
                         .requiredWidth(51.dp)
                         .clickable(true, onClick = {
-                            vm.index.intValue = 0
                             navigation.navigate("MenuScreen")
                         })
                         .constrainAs(homeBTN) {
